@@ -9,8 +9,10 @@ app.on('ready', () => {
         height: 400,
         webPreferences: { nodeIntegration: true }
     })
+    mainWindow.webContents.openDevTools()
+    require('./main/menu.js') 
 
-    mainWindow.loadFile('./demo1.html')
+    mainWindow.loadFile('./mainDemo.html')
 
     //监听关闭事件，将主窗口设置为null
     mainWindow.on('closed', () => {

@@ -1,0 +1,27 @@
+{
+  "name": "electron-demo",
+  "version": "1.0.0",
+  "description": "electron demo练习",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SnowdropK/electron-demo.git"
+  },
+  "keywords": [
+    "electron"
+  ],
+  "author": "snowdrops",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SnowdropK/electron-demo/issues"
+  },
+  "homepage": "https://github.com/SnowdropK/electron-demo#readme",
+  "devDependencies": {
+    "electron": "^9.2.1"
+  },
+  "dependencies": {}
+}
